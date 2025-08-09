@@ -1,3 +1,15 @@
-data/*
-logs/*
-mlruns/*
+# DEVELOPMENT DATA
+data
+!src/data
+!configs/data
+logs
+mlruns
+.env
+
+# CACHE
+.venv
+
+# PYTHON CACHE
+__pycache__/
+*.py[cod]
+*.egg-info

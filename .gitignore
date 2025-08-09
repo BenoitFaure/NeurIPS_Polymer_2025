@@ -6,8 +6,12 @@ logs
 mlruns
 .env
 
+# CREDIDENTIALS
+.kaggle
+
 # CACHE
 .venv
+outputs
 
 # PYTHON CACHE
 __pycache__/

@@ -1,0 +1,5 @@
+# conf/data/kaggle.yaml
+raw_dir: ${hydra:runtime.cwd}/data/raw
+processed_dir: ${hydra:runtime.cwd}/data/processed
+version_file: ${hydra:runtime.cwd}/data/version.txt
+dataset: neurips-open-polymer-prediction-2025

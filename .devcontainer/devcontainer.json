@@ -13,7 +13,13 @@
 	"containerEnv": {
 		"NVIDIA_VISIBLE_DEVICES": "all",
 		"NVIDIA_DRIVER_CAPABILITIES": "compute,utility,video"
-	}
+	},
+
+	// Credidentials
+	"remoteEnv": {
+		"KAGGLE_CONFIG_DIR": "/workspaces/NeurIPS_Polymer_2025/.kaggle"
+		}
+
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

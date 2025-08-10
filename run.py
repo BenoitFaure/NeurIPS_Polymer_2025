@@ -21,7 +21,7 @@ from omegaconf import DictConfig
 # List your scripts here as (module_path, description)
 scripts = [
     ("src.data.download", "Download and preprocess dataset"),
-    ("src.data.process_dataset", "Process raw dataset"),
+    ("src.data.preprocess", "Process raw dataset"),
     # add more scripts here
 ]
 
